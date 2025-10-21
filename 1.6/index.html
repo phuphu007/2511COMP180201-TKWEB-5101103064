@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ======= Toàn trang ======= */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e8ffe8, #ffffff);
+            color: #222;
+            text-align: center;
+            padding: 40px;
+        }
+
+        /* ======= Thanh menu ======= */
+        .menu {
+            background: linear-gradient(90deg, #1c7c25, #32b439);
+            padding: 12px 0;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #fff;
+            color: #1c7c25;
+            padding: 8px 14px;
+            border-radius: 8px;
+        }
+
+        /* ======= Tiêu đề ======= */
+        h1 {
+            color: #1c7c25;
+            margin-bottom: 15px;
+            font-size: 2em;
+        }
+
+        /* ======= Nội dung ======= */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+
+        /* ======= Liên hệ ======= */
+        a {
+            color: #1c7c25;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ======= Hiệu ứng nhỏ khi tải trang ======= */
+        body {
+            animation: fadeIn 0.8s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+  <div class="menu">
+    <a href="index.html">Trang chủ</a>
+    <a href="kehoach.html">Kế hoạch học tập</a>
+    <a href="sothich.html">Sở thích</a>
+    <a href="lienhe.html">Liên hệ</a>
+  </div>
+
+  <h1>Xin chào, mình là Nguyễn Thiên Phú </h1>
+  <p>Chào mừng bạn đến với trang web giới thiệu bản thân của mình.</p>
+  <p>Mình hiện là sinh viên năm nhất đang học tại <a href="https://www.facebook.com/HCMUE.VN">HCMUE</a></p>
+</body>
+</html>
